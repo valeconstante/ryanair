@@ -1,0 +1,41 @@
+/* Media Queries */
+
+/* versión móviles */
+@media screen and (max-width:767px) {
+    [class*='col-'] {float: none;}
+    .contact {display: none;}
+    .doblefuncionmenu {display: none;}
+    .nav-principal {margin: 1rem 0;}
+    .nav-secundario {line-height: 1rem; margin: 1rem 0;}
+    .botonav {padding: 0.2rem; margin-bottom: 0.5rem;}
+    .botonac {margin-bottom: 0.5rem; display: inline-block; max-width: 28%;}
+    .botop {margin-bottom: 0.5rem; display: inline-block;}
+    input[type="text"] {width: 330px;}
+    input[type="submit"] {width: 330px; margin-top: 15px;}
+    .col-1-3, .col-1-4, .col-1-5 {width: 100%;}
+    .header-slider {height: 80px; background-size: 100%}
+    .seguridad2 {margin: 1rem 0;}
+    .seg1 figure {padding: 0;}
+    .seg2 figure {padding: 0;}
+    .seg3 figure {padding: 0;}
+    h2 {margin-left: 1rem; text-align: center;}
+    .basico4 {max-width: 100%;}
+    .basicos .basico1 {position: inherit;}
+    .basico1 .basicos-content1 {position: inherit;}
+    .basicos .basico1 img {padding: 0;}
+    .basicos .basico2 {position: inherit;}
+    .basico2 .basicos-content2 {position: inherit;}
+    .basicos .basico2 img {padding: 0;}
+    .basicos .basico3 {position: inherit;}
+    .basico3 .basicos-content3 {position: inherit;}
+    .basicos .basico3 img {padding: 0;}
+    .basicos .basico4 {position: inherit;}
+    .basico4 .basicos-content4 {position: inherit;}
+    .basicos .basico4 img {padding: 0;}
+    .info-explora1, .info-explora2, .info-explora3, .info-explora4, .info-explora5 {max-width: 90%; margin: 1rem;}
+    .descubrir {display: none;}
+    .info-final h4 {line-height: 1rem; margin-bottom: 1rem;}
+    .iconos-rrss {margin-bottom: 1rem;}
+    #desplegable {display: block; float: right; cursor: pointer;}
+    .nav-principal {display: none;}
+}
