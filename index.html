@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+	
+<head>
+    
+    <!-- Formato de codificación de caracteres -->
+	<meta charset="utf-8">
+    
+    <!-- Permite que la página sea responsive -->
+	<meta name="viewport" content="width=device-width">
+	
+    <!-- Link del diseñador de la página -->	
+	<link rel="author" href="https://es.linkedin.com/in/valeriaconstante">
+
+    <!-- Iconos para los diferentes dispositivos -->
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
+	
+	<!-- Hojas de estilos -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/new-css.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<!-- Font Awesome Icons  -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script src="js/menu.js"></script>
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/new-slick.js" type="text/javascript" charset="utf-8"></script>
+
+
+	<!-- Título de la página -->			
+	<title>Página Oficial de Ryanair | Vuelos baratos</title>
+	
+	<!-- Descripción para Google -->
+	<meta name="description" content="Reserve vuelos baratos directamente en la web oficial de Ryanair para obterner las tarifas más baratas de Europa. Asientos asignados y mucho más.">			
+</head>
+
+<body>
+	<a href="#"><img class="contact" src="img/contact.png" alt="contacto"></a>
+
+	<div class="col-1 doblefuncionmenu">
+		<div class="col-1-3 doble1">
+			<h2>EXPLORAR</h2>
+			<ul>
+				<li>Buscar vuelo</li>
+				<li>Alquiler de coche</li>
+				<li>Buscar rooms</li>
+				<li>Ryanair Tickets</li>
+				<li>Buscar eventos y actividades</li>
+				<li>Try Somewhere New</li>
+				<li>Mapa de rutas</li>
+				<li>Destinos</li>
+			</ul>
+		</div>
+
+		<div class="col-1-3 doble2">
+			<h2>EXTRAS DE VIAJE</h2>
+			<ul>
+				<li>Asiento reservado</li>
+				<li>Política de equipaje</li>
+				<li>Fast Track</li>
+				<li>Autobús y tren</li>
+				<li>Aparcamiento</li>
+				<li>Tarjetas regalo</li>
+				<li>Revista de vuelo</li>
+			</ul>
+		</div>
+
+		<div class="col-1-3 doble3">
+			<h2>VOLAR CON NOSOTROS</h2>
+			<ul>
+				<li>Tasa de cambio cero</li>
+				<li>Regular</li>
+				<li>Plus</li>
+				<li>Family Plus</li>
+				<li>Flexi Plus</li>
+				<li>Grupos</li>
+				<li>Erasmus</li>
+				<li>La App de Ryanair</li>
+				<li>myRyanair</li>
+				<li>Sello de verificación</li>
+			</ul>
+		</div>
+	</div>
+
+	<header class="cabecera col-1">	
+	<div class="menu-cabecera col-1">
+	<img src="./img/logo.svg" alt="logo-ryanair">
+		<div id="desplegable">
+			<i class="fas fa-bars"></i>
+		</div>
+		<nav class="nav-principal">
+			<div class="menu-resp">
+				<a href="#"id="doblefuncion">Planear <i class="fas fa-chevron-down"></i> | </a> 
+				<a href="#">Mis reservas | </a>
+				<a href="#">Registrarse | </a>
+				<a href="#">Inicia sesión | </a>
+				<a href="#">Ayuda  <i class="fas fa-chevron-down"></i> | </a>
+				<img src="./img/spain-flag.svg" alt="spanish-lang"> <i class="fas fa-chevron-down"></i>
+			</div>
+		</nav>		
+	</div> <!-- MENU CABECERA -->
+
+	<nav class="nav-secundario col-1">
+		<div class="wrapper">
+			<div class="botonav botonac"><i class="fas fa-plane"></i> <a href="#">VUELOS</a></div> 
+			<div class="botonav botop"><i class="fas fa-car-alt faop"></i> <a href="#">ALQUILER DE COCHES</a></div>
+			<div class="botonav botop"><i class="fas fa-hotel faop"></i> <a href="#">HOTELES</a></div>
+			<div class="botonav botop"><i class="far fa-calendar-alt faop"></i> <a href="#">EVENTOS Y ACTIVIDADES</a></div>
+		</div>
+	</nav>
+
+	<form class="col-1">
+		<div class="wrapper">
+			<fieldset>
+				<div class="col-1">
+					<input type="radio" name="ruta"><label>Ida y vuelta</label>
+					<input type="radio" name="ruta"><label>Ida</label>
+				</div>
+
+				<div class="col-1">
+					<input type="text" placeholder="Madrid">
+					<input type="text" placeholder="Destino">
+					<input type="submit" value="Buscar">
+				</div>
+			</fieldset>
+		</div>
+	</form>
+</header>
+
+<main>
+	<section class="col-1">
+		<div class="wrapper">
+			<div class="covid">
+			<i class="fas fa-exclamation-circle"></i> IMPORTANTE: Últimas actualizaciones de viajes y localizaciones para pruebas C-19 <a href="#">Leer más</a>
+			</div>
+		</div>
+	</section>
+	
+	<section class="col-1 promociones">
+		<a href="#">
+			<div class="wrapper">
+				<div class="header-slider"></div>
+			</div>
+		</a>
+	</section>
+
+	<section class="col-1 seguridad">
+		<div class="wrapper">
+			<h2>Ahora viajar es más fácil. Aquí tienes todo lo que necesitas saber.</h2>
+				<div class="col-1">
+					
+					<div class="seg1">
+						<figure class="col-1-3 seguridad1">
+							<a href="#">
+							<img src="/img/seguridad-1.jpg" alt="">
+							<figcaption>
+								<span>Directrices para volar de forma segura.</span><br>Todo lo que necesitas saber
+							</figcaption>
+							</a>
+						</figure>	
+					</div>		
+					
+					<div class="seg2">
+						<figure class="col-1-3 seguridad2">
+							<a href="#">
+							<img src="/img/seguridad-2.jpg" alt="">
+							<figcaption>
+								<span>Certificado COVID Digital de la UE.</span><br>Todo lo que necesitas saber
+							</figcaption>
+							</a>
+						</figure>
+					</div>
+					
+					<div class="seg3">
+						<figure class="col-1-3 seguridad3">
+							<a href="#">
+							<img src="/img/seguridad-3.jpg" alt="">
+							<figcaption>
+								<span>Certificado COVID Digital de la UE.</span><br>Todo lo que necesitas saber
+							</figcaption>
+							</a>
+						</figure>
+					</div>
+				</div>
+		</div>
+	</section>
+
+	<section class="col-1 basicos">
+		<div class="wrapper">
+			<h2>Básicos de viaje</h2>
+			<article class="col-1-4 basico1">
+				<a href="#">
+					<img src="/img/basicos1.webp" alt="vuela-ecologica">
+					<div class="basicos-content1">
+						<i class="fas fa-search"></i>
+						<h3>VUELA DE FORMA MÁS ECOLÓGICA</h3>
+						<p>Prueba nuestra nueva calculadora de carbono.</p>
+						<a href="#">Haz clic aquí</a>
+					</div>
+				</a>
+			</article>
+
+			<article class="col-1-4 basico2">
+				<a href="#">
+					<img src="/img/basicos2.webp" alt="">
+					<div class="basicos-content2">
+						<i class="fas fa-car"></i>
+						<h3>ALQUILER DE COCHE</h3>
+						<p>Encontramos para ti los mejores precios del mercado.</p>
+						<a href="#">Ver coches</a>
+					</div>
+				</a>
+			</article>
+
+			
+			<article class="col-1-4 basico3">
+				<a href="#">
+					<img src="/img/basicos3.webp" alt="">
+					<div class="basicos-content3">
+						<i class="fas fa-camera"></i>
+						<h3>ENTRADAS</h3>
+						<p>Consigue entradas para las principales atracciones y eventos deportivos europeos con Ryanair Tickets.</p>
+						<a href="#">¡No te lo pierdas!</a>
+					</div>
+				</a>
+			</article>
+			
+
+
+			<article class="col-1-4 basico4">
+				<a href="#">
+					<img src="/img/basico4.png" alt="">
+					<div class="basicos-content4">
+						<i class="fas fa-bed"></i>
+						<h3>ROOMS</h3>
+						<p>Elige Ryanair Rooms para disfrutar de dulces sueños y dulces ofertas.</p>
+						<a href="#">Elige rooms</a>
+					</div>
+				</a>
+			</article>
+		</div>
+	</section>
+
+	<section class="col-1 explora">
+		<div class="wrapper">
+
+			<h2>Explora Ryanair</h2>
+
+			<div class="col-1-5 info-explora1">
+				<div class="exp1">
+					<i class="fas fa-map-marked-alt"></i>
+					<h3>Mapa de rutas</h3>
+					<div class="linea"></div>
+				</div>
+			</div>
+			
+			<div class="col-1-5 info-explora2">
+				<div class="exp2">
+					<i class="fas fa-plane-departure"></i>
+					<h3>Buscador de tarifas</h3>
+					<div class="linea"></div>
+				</div>
+			</div>
+
+			<div class="col-1-5 info-explora3">
+				<div class="exp3">
+					<i class="far fa-file-alt"></i>
+					<h3>Info actualizada</h3>
+					<div class="linea"></div>
+				</div>
+			</div>
+
+			<div class="col-1-5 info-explora4">
+				<div class="exp4">
+					<i class="far fa-clock"></i>
+					<h3>Horario de vuelos</h3>
+					<div class="linea"></div>
+				</div>
+			</div>
+
+			<div class="col-1-5 info-explora5">
+				<div class="exp5">
+					<i class="fas fa-laptop"></i>
+					<h3>Mis reservas</h3>
+					<div class="linea"></div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="wrapper">
+		<div class="descubrir">
+			<h2>Descubrir</h2>
+			<section class="col-1 regular slider">
+					<div>
+					<img src="img/descubrir1.jpg">
+					</div>
+					<div>
+					<img src="img/descubrir2.jpg">
+					</div>
+					<div>
+					<img src="img/descubrir3.jpg">
+					</div>
+					<div>
+					<img src="img/descubrir4.jpg">
+					</div>
+					<div>
+					<img src="img/descubrir5.jpg">
+					</div>
+					<div>
+					<img src="img/descubrir6.jpg">
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</main>
+
+<footer class="col-1">
+	<div class="wrapper">
+		<div class="fondo-footer">
+			<img src="/img/logo-footer.png" alt="logo-ryanair">
+			
+			<div class="datos">
+				<div class="col-1-5">
+					<p>40 países</p>
+				</div>
+				<div class="col-1-5">
+					<p>82 bases</p>
+				</div>
+				<div class="col-1-5">
+					<p>470 aviones</p>
+				</div>
+				<div class="col-1-5">
+					<p>2k vuelos</p>
+				</div>
+				<div class="col-1-5">
+					<p>19k pilotos</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-1 fondo-blanco">
+				<div class="col-2-3">
+					<div class="col-1-4 info-final">		
+						<h4>Planear viaje</h4>
+						<ul>
+							<li><a href="#">Check-in online</a></li>
+							<li><a href="#">Info vuelo</a></li>
+						</ul>
+					</div>	
+
+					<div class="col-1-4 info-final">		
+						<h4>Info útil</h4>
+						<ul>
+							<li><a href="#">Centro de ayuda</a></li>
+							<li><a href="#">Recibos de compras a bordo</a></li>
+							<li><a href="#">Ver el historia de la reserva</a></li>
+						</ul>
+					</div>
+
+					<div class="col-1-4 info-final">		
+						<h4>Empresa</h4>
+						<ul>
+							<li><a href="#">Anúnciate con nosotros</a></li>
+							<li><a href="#">Empleo</a></li>
+							<li><a href="#">Crewlink</a></li>
+							<li><a href="#">Corporate</a></li>
+							<li><a href="#">Centro de prensa</a></li>
+							<li><a href="#">Relaciones con inversores</a></li>
+							<li><a href="#">Dirección registrada</a></li>
+						</ul>
+					</div>	
+
+					<div class="col-1-4 info-final">		
+						<h4>Vuelos</h4>
+						<ul>
+							<li><a href="#">Vuelos a Milán</a></li>
+							<li><a href="#">Vuelos a Venecia</a></li>
+							<li><a href="#">Vuelos a Bruselas</a></li>
+							<li><a href="#">Vuelos a Barcelona</a></li>
+							<li><a href="#">Vuelos a Malta</a></li>
+							<li><a href="#">Vuelos a Mallorca</a></li>
+							<li><a href="#">Vuelos a Valencia</a></li>
+						</ul>
+					</div>	
+				</div>
+
+				<div class="col-1-3 info-final">
+					<h4>Síguenos</h4>
+					<div class="iconos-rrss">
+						<i class="fab fa-twitter-square"></i>
+						<i class="fab fa-facebook-square"></i>
+						<i class="fab fa-instagram-square"></i>
+						<i class="fab fa-youtube-square"></i>
+						<i class="fab fa-linkedin"></i>
+					</div>
+					<h4>Ya puedes descargarla gratis</h4>
+					<div><img src="/img/app-store.png" alt="apple-store"><img src="/img/google-play.png" alt="google-play"></div>
+				</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+
+</html>
